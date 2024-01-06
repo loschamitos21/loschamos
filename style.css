@@ -83,7 +83,6 @@ body {
             background-color: black;
           }
           .navbar {
-            background-color: #333;
             overflow: hidden;
 
             justify-content: center; /* Para alinear los elementos al centro horizontalmente */
