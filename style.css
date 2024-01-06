@@ -1,0 +1,115 @@
+body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url(OIG.Fhc.jpg);
+        background-size: cover;
+
+
+          }
+          h2{
+            text-align: center;
+            color: white;
+            font-family: 'Bungee Spice', sans-serif;
+            font-size: 70px;
+            margin: 2%;
+          }
+          :root {
+            --bg: white;
+            --text: black;
+            --label: rgba(0, 0, 0, .7);
+            --border: rgba(0, 0, 0, .3);
+            --active: black;
+            --focus: black;
+            --error: red;
+          }
+          
+          /* Estilos */
+          body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg);
+            color: var(--text);
+          }
+          
+          .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 70vh;
+          }
+          
+          .centered-form {
+            width: 300px;
+            padding: 20px;
+            border: 1px solid var(--border);
+            border-radius: 5px;
+            background-color: var(--bg);
+          }
+          
+          label {
+            color: var(--label);
+            margin-bottom: 5px;
+          }
+          
+          input[type="text"],
+          select {
+            width: calc(100% - 16px);
+            padding: 8px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+            border: 1px solid transparent;
+            border-bottom-color: var(--border);
+            background: transparent;
+            outline: none;
+            color: var(--text);
+          }
+          
+          input[type="submit"] {
+            background-color: var(--text);
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 0;
+            cursor: pointer;
+          }
+          
+          input[type="submit"]:hover,
+          input[type="submit"]:focus,
+          input[type="submit"]:active {
+            color: white;
+            background-color: black;
+          }
+          .navbar {
+            background-color: #333;
+            overflow: hidden;
+
+            justify-content: center; /* Para alinear los elementos al centro horizontalmente */
+          }
+          
+          .navbar-nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            text-align: center;
+          }
+          
+          .nav-item {
+            padding: 15px;
+          }
+          
+          .nav-item a {
+            text-decoration: none;
+            color: white;
+            transition: background-color 0.3s;
+          }
+          
+          .nav-item a:hover {
+            background-color: #555;
+          }
+          ul {
+            text-align: ;
+          }
