@@ -83,11 +83,19 @@ body {
             background-color: black;
           }
           .navbar {
+         
             overflow: hidden;
-
+            display: flex;
             justify-content: center; /* Para alinear los elementos al centro horizontalmente */
+            background-color: #0042bd83;
+            height: 70px;
+            box-shadow: #000000a2 5px 5px 5px;
+            font-family: 'Oswald', sans-serif;
+
           }
-          
+          .navbar li{
+            font-size: 30px;
+          }
           .navbar-nav {
             list-style-type: none;
             margin: 0;
@@ -107,8 +115,32 @@ body {
           }
           
           .nav-item a:hover {
-            background-color: #555;
+            background-color: #ff0022d0;
+            box-shadow: #ff0022d0 2px 0px 15px 2px;
+            font-size: 35px;
           }
           ul {
-            text-align: ;
+            text-align:center;
           }
+.bienvenida p{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.589) 5px 0px 15px;
+}
+
+.bienvenida h2 {
+  font-size: 35px;
+}
+.bienvenida img {
+  display: block; /* Hace que la imagen sea un bloque para aplicar márgenes automáticamente */
+  margin: 0 auto; /* Auto-margen para centrar horizontalmente la imagen */
+  
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+img {
+  max-width: 80%;
+  height: auto;
+  width: 400px;
+}
