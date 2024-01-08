@@ -1,146 +1,151 @@
+/* Estilos generales */
 body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-image: url(OIG.Fhc.jpg);
-        background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(20, 20, 20);
+}
 
 
-          }
-          h2{
-            text-align: center;
-            color: white;
-            font-family: 'Bungee Spice', sans-serif;
-            font-size: 70px;
-            margin: 2%;
-          }
-          :root {
-            --bg: white;
-            --text: black;
-            --label: rgba(0, 0, 0, .7);
-            --border: rgba(0, 0, 0, .3);
-            --active: black;
-            --focus: black;
-            --error: red;
-          }
-          
-          /* Estilos */
-          body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: var(--bg);
-            color: var(--text);
-          }
-          
-          .container {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 70vh;
-          }
-          
-          .centered-form {
-            width: 300px;
-            padding: 20px;
-            border: 1px solid var(--border);
-            border-radius: 5px;
-            background-color: var(--bg);
-          }
-          
-          label {
-            color: var(--label);
-            margin-bottom: 5px;
-          }
-          
-          input[type="text"],
-          select {
-            width: calc(100% - 16px);
-            padding: 8px;
-            margin-bottom: 10px;
-            box-sizing: border-box;
-            border: 1px solid transparent;
-            border-bottom-color: var(--border);
-            background: transparent;
-            outline: none;
-            color: var(--text);
-          }
-          
-          input[type="submit"] {
-            background-color: var(--text);
-            color: white;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 0;
-            cursor: pointer;
-          }
-          
-          input[type="submit"]:hover,
-          input[type="submit"]:focus,
-          input[type="submit"]:active {
-            color: white;
-            background-color: black;
-          }
-          .navbar {
-         
-            overflow: hidden;
-            display: flex;
-            justify-content: center; /* Para alinear los elementos al centro horizontalmente */
-            background-color: #0042bd83;
-            height: 70px;
-            box-shadow: #000000a2 5px 5px 5px;
-            font-family: 'Oswald', sans-serif;
+h2 {
+  text-align: center;
+  color: white;
+  font-family: 'Bungee Spice', sans-serif;
+  font-size: 5vw; /* Tamaño de texto adaptable */
+  margin: 2% auto; /* Auto-margen para centrar horizontalmente */
+}
 
-          }
-          .navbar li{
-            font-size: 30px;
-          }
-          .navbar-nav {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            text-align: center;
-          }
-          
-          .nav-item {
-            padding: 15px;
-          }
-          
-          .nav-item a {
-            text-decoration: none;
-            color: white;
-            transition: background-color 0.3s;
-          }
-          
-          .nav-item a:hover {
-            background-color: #ff0022d0;
-            box-shadow: #ff0022d0 2px 0px 15px 2px;
-            font-size: 35px;
-          }
-          ul {
-            text-align:center;
-          }
-.bienvenida p{
+/* Estilos de la barra de navegación */
+.navbar {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  background-color: #33333383;
+  height: 10vh; /* Altura adaptable */
+  box-shadow: #000000a9 5px 50px 55px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.navbar li {
+  font-size: 3.5vw; /* Tamaño de texto adaptable */
+  padding: 1vh 2vw; /* Espaciado adaptable */
+}
+
+.navbar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  text-align: center;
+}
+
+.nav-item {
+  padding: 1vh 2vw; /* Espaciado adaptable */
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.nav-item a:hover {
+  text-shadow: rgba(255, 0, 0, 0.589) 0px 0px 55px;
+  font-size: 4vw; /* Tamaño de texto adaptable en hover */
+}
+
+/* Otros estilos */
+.container {
+  width: 90%; /* Ancho adaptable */
+  margin: 5vh auto; /* Margen adaptable */
+  
+}
+
+/* Estilos para la bienvenida */
+.bienvenida p {
   text-align: center;
   font-family: 'Oswald', sans-serif;
-  font-size: 30px;
+  font-size: 2vw; /* Tamaño de texto adaptable */
   color: white;
-  text-shadow: rgba(0, 0, 0, 0.589) 5px 0px 15px;
+  text-shadow: rgba(0, 0, 0, 0.589) 2vw 0 5vw; /* Sombra de texto adaptable */
 }
 
 .bienvenida h2 {
-  font-size: 35px;
+  font-size: 4vw; /* Tamaño de texto adaptable */
 }
+
 .bienvenida img {
-  display: block; /* Hace que la imagen sea un bloque para aplicar márgenes automáticamente */
-  margin: 0 auto; /* Auto-margen para centrar horizontalmente la imagen */
-  
-  height: auto; /* Mantiene la proporción de la imagen */
-}
-img {
-  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+  max-width: 20%; /* Para asegurar que la imagen sea completamente adaptable */
   height: auto;
-  width: 400px;
+}
+
+.container {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+
+}
+
+.centered-form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background-color: var(--bg);
+  box-shadow: rgba(211, 0, 0, 0.747) 0px 0px 50px;
+}
+
+label {
+  color: var(--label);
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+  width: calc(100% - 16px);
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  border-bottom-color: var(--border);
+  background: transparent;
+  outline: none;
+  color: var(--text);
+}
+
+input[type="submit"] {
+  background-color: var(--text);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:active {
+  color: white;
+  background-color: black;
+}
+
+h2{
+  text-align: center;
+  color: white;
+  font-family: 'Bungee Spice', sans-serif;
+  font-size: 70px;
+  margin: 2%;
+}
+:root {
+  --bg: white;
+  --text: black;
+  --label: rgba(0, 0, 0, .7);
+  --border: rgba(0, 0, 0, .3);
+  --active: black;
+  --focus: black;
+  --error: red;
 }
